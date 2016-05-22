@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: Arial;
+	border: 1px solid black;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+td {
+	border: 1px groove;
+	padding-left: 5px;
+	width: 150px;
+	line-height: 20px;
+}
+
+tr:nth-child(2n+1) {
+	background-color: #c8c8c8;
+}
+
+tr:nth-child(1) {
+	background-color: #00B900;
+	color: white;
+}
+
+td img {
+	width: 15px;
+	height: 15px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+tr td:last-child {
+	width: 90px;
+	white-space: nowrap;
+}

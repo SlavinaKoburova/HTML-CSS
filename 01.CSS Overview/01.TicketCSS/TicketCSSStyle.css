@@ -1,0 +1,48 @@
+table {
+	background-color: #585252;
+	font-weight: normal;
+}
+
+tr, td {
+	padding: 0 10px 5px 0;
+}
+
+.head {
+	color: #b0a5a5;
+	font-size: 30px;
+	font-family: Arial;
+	text-align: left;
+
+}
+
+.label {
+	font-style: italic;
+	color: #dfd6d6;
+	font-size: 15px;
+}
+
+.yellowlabel {
+	font-style: italic;
+	color: #f2e994;
+	font-size: 15px;
+}
+
+.yellow {
+	color:  #f2e994;
+	font-size: 15px;
+}
+
+.grey {
+	color: #c1bfad;
+	font-size: 15px;
+}
+
+.red {
+	color: #e74432;
+	font-size: 15px;
+}
+
+.orange {
+	color: #f6a53f;
+	font-size: 15px;
+}

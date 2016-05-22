@@ -1,0 +1,20 @@
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+table {
+	border-collapse: collapse;
+	text-decoration-color:black;
+	padding: 2%;
+	width: 14%;
+}
+
+table, td {
+	border: inset #C8C8C8;
+	font-weight: bold;
+}
+

@@ -1,0 +1,39 @@
+table, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	width: 450px;
+	height: 500px;
+}
+.leftSide {
+	font-weight: bold;
+	text-align: right;
+}
+
+#Address {
+	width: 93%;
+	height: 80px;
+}
+
+#City {
+	width: 90%;
+}
+
+#state {
+	width: 30px;
+	font-weight: bold;
+}
+
+.statefield {
+	width: 60px;
+}
+
+#code {
+	width: 30%;
+}
+
+#country {
+	width: 70%;
+}

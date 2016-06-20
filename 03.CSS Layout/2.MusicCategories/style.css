@@ -1,0 +1,72 @@
+body, div {
+	margin: 0;
+	padding: 0;
+}
+
+.parent {
+	width: 491px;
+	height: 600px;
+	background-color: #eae5e5;
+	position: absolute;
+}
+
+.parent span {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	top: 15px;
+	font-size: 20px;
+}
+
+.second {
+	position: relative;
+	width: 460px;
+	height: 130px;
+	background-color: white;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	left: 10px;
+	top: 80px;
+}
+
+.image {
+	position: relative;
+	width: 150px;
+	height: 100px;
+	left: 15px;
+	top: 15px;
+}
+
+.text {
+	display: inline-block;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+button {
+	position: absolute;
+	width: 80px;
+	height: 25px;
+	bottom: 15px;
+	color: white;
+	font-size: 13px;
+}
+
+div button:first-of-type {
+	position: absolute;
+	right: 85px;
+	background-image: url(imageButton.png);
+	background-size: 85px;
+	background-repeat: no-repeat;
+}
+
+div button:last-of-type {
+	position: absolute;
+	right: 15px;
+	width: 68px;
+	background-image: url(imageButton.png);
+	background-size: 85px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+#main {
+	width: 900px;
+	height: 650px;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#headCer {
+	width: 100%;
+}
+
+#headContent {
+	margin: 0px auto;
+	display: table;
+}
+
+#headContent a{
+	padding-right: 5px;
+}
+
+hr {
+	width: 95%;
+}
+
+header a {
+	color: #25f3f9;
+	font-size: 30px;
+	
+}
+
+section {
+	width: 70%;
+	height: 87%;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+article fieldset {
+	display: inline-block;
+	width: 44%;
+	height: 10%;
+	margin-bottom: 0;
+}
+
+article fieldset p:first-of-type {
+	margin-top: 40px;
+}
+
+article fieldset p:last-of-type {
+	margin-left: 20px;
+}
+
+article p span {
+	display: inline-block;
+	margin-left: 52px;
+}
+
+aside {
+	width: 30%;
+	height: 70%;
+	padding: 22px;
+	box-sizing: border-box;
+}
+
+aside form {
+	font-size: 25px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear-both {
+	clear: both;
+}

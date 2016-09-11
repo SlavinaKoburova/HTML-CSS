@@ -1,0 +1,26 @@
+div {
+	width: 820px;
+	height: 62px;
+}
+
+.red {
+	background-color: red;
+	border-color: red;
+	border-radius: 10px;
+	width: 80%;
+	height: 90%;
+	margin-right: 10px;
+}
+
+.black {
+	background-color: black;
+	border-color: black;
+	border-radius: 10px;
+	width: 78%;
+	height: 88%;
+/*	margin-top: 3px;*/
+	margin-right: 8px; 
+}
+
+
+

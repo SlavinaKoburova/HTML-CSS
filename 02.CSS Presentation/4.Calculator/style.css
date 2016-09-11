@@ -1,0 +1,96 @@
+body, table tr, td, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#dropDownMenu {
+	border: 1px solid black;
+	margin-bottom: 0;
+}
+
+#dropDownMenu span {
+	display: inline-block;
+	padding: 5px 8px 0 5px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#content {
+	width: 420px;
+	height: 440px;
+	border: 1px solid black;
+}
+
+#display {
+	border: 1px solid black;
+	border-radius: 3px;
+	width: 393px;
+	height: 25px;
+	text-align: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 22px;
+}
+
+#second-display {
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-left: 10px;
+	width: 400px;
+	height: 25px;
+}
+
+#second-display td {
+	font-size: 13px;
+	padding-left: 7px;
+}
+
+.rightPosition {
+	text-align: right;
+	padding-right: 10px;
+}
+
+#typeValues {
+	border: 1px solid black;
+	border-radius: 3px;
+	margin: 0px 0 5px 10px;
+	width: 75px;
+	height: 112px;
+}
+
+#typeValues td {
+	font-size: 13px;
+}
+
+#controls-container {
+	width: 330px;
+	height: 115px;
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.radio-buttons {
+	 border: 1px solid rgb(211, 211, 211);
+    width: 120px;
+    height: 90px;
+    text-align: left;
+}
+
+.button {
+	border: 1px solid black;
+	width: 33.2px;
+	height: 25px;
+	padding-top: 5px;
+	text-align: center;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
